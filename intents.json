@@ -1,0 +1,252 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey, Welcome to Shahbaaz Eagle chatbot :-)",
+        "Hello, Welcome to Shahbaaz Eagle chatbot, how can i assist you? ",
+        "Hi there, what can Shahbaaz Eagle chatbot do for you ?",
+        "Hi there, how can Shahbaaz Eagle chatbot help you?"
+      ]
+    },
+    {
+      "tag": "discard policy B vehicle",
+      "patterns": ["Vintage", "discard policy b vehicle", "discard policy b veh","2.5 ton","policy b veh 2.5 ton","2.5 ton"],
+      "responses": [
+        "Vintage-9Yrs and meterage-100000km",
+        "here is your info Vintage-9Yrs and meterage-100000km,",
+        "Vintage-9Yrs and meterage-100000km"
+      ]
+    },
+    {
+      "tag": "discard policy of telecom equipment?",
+      "patterns": ["Telecom", "Tele", "Telecom Equipment", "Policy of telecom", "Policy of tele eqpt", "discard policy tele eqpt", "policy of telecom eqpt", "telecom eqpt"],
+      "responses": ["AO 5/91", "Here is the answer to your query: AO 5/91", "The policy is: AO 5/91"]
+    },
+
+    {
+      "tag": "specification testing of communication eqpt",
+      "patterns": [
+        "What is the specification testing of communication eqpt ?",
+        "Tell me the specification testing of communication eqpt ?",
+        "Elaborate about the specification testing of communication eqpt ?","specific testing","testing of communication eqpt","communication eqpt","specific testing of communication eqpt","specific testing of comn eqpt","comn","comn equipment"
+      ],
+      "responses": [
+        "The specification testing lays down the procedure for carrying out various tests periodically to check the health of comn eqpt in the field .These tests are reqd to be carried out after repair of defective sets.These tests specify the absolute minimum stds which the comn eqpt must comply to be certified for operational fitness.",
+        "The specification testing lays down the procedure for carrying out various tests periodically to check the health of comn eqpt in the field .These tests are reqdtobe carried out after repair of defective sets.These tests specify the absolute minimum stds which the comn eqpt must comply to be certified for operational fitness.",
+        "The specification testing lays down the procedure for carrying out various tests periodically to check the health of comn eqpt in the field .These tests are reqdtobe carried out after repair of defective sets.These tests specify the absolute minimum stds which the comn eqpt must comply to be certified for operational fitness."
+      ]
+    },
+    {
+      "tag": "discard policy of C veh",
+      "patterns": [
+        "Discard policy of C veh","c veh","policy of c veh","c vehicle","C-vehicle","polciy of c vehicle","policy for c vehicle","c vehicle policy "
+      ],
+      "responses": [
+        "Gen Set upto 5 KVA - vintage 09 Yrs & meterage 7000HrsGen Set 5 to 11 KVA- vintage 12 Yrs & meterage 7000 HrsGen set above 11 KVA- vintage 15 Yrs & meterage 7000 Hrs","Gen Set upto 5 KVA - vintage 09 Yrs & meterage 7000HrsGen Set 5 to 11 KVA- vintage 12 Yrs & meterage 7000 HrsGen set above 11 KVA- vintage 15 Yrs & meterage 7000 Hrs","Gen Set upto 5 KVA - vintage 09 Yrs & meterage 7000HrsGen Set 5 to 11 KVA- vintage 12 Yrs & meterage 7000 HrsGen set above 11 KVA- vintage 15 Yrs & meterage 7000 Hrs"
+      ]
+    },
+    {
+      "tag": "obt",
+      "patterns": [
+        "What is OBT","what is obt","obt","tell me about obt","elaborate about obt","OBT","obt decription"
+      ],
+      "responses": [
+        "When eqpt is declared Obsolscent'nofurther provisioning of the same ismade.The life time spares have been procured for the eqpt at the time of initial purchase.Eqpt which although obsolete are required to be retained to meet Tech training orother special requirement within the service","When eqpt is declared Obsolscent'nofurther provisioning of the same ismade.The life time spares have been procured for the eqpt at the time of initial purchase.Eqpt which although obsolete are required to be retained to meet Tech training orother special requirement within the service","When eqpt is declared Obsolscent'nofurther provisioning of the same ismade.The life time spares have been procured for the eqpt at the time of initial purchase.Eqpt which although obsolete are required to be retained to meet Tech training orother special requirement within the service"
+      ]
+    },
+    {
+      "tag": "obe",
+      "patterns": [
+        "what is obe","what is OBE?","OBE","tell me about OBE","describe obe","OBE","obe functionality"
+      ],
+      "responses": [
+       "An Eqpt is declared obsolete when approval has been given for its withdrawal from the service.","An Eqpt is declared obsolete when approval has been given for its withdrawal from the service.","An Eqpt is declared obsolete when approval has been given for its withdrawal from the service."
+      ]
+    },
+    {
+      "tag": "blr",
+      "patterns": [
+        "what is blr","what is BLR?","BLR","tell me about BLR","describe BLR","BLR","BLR functionality"
+      ],
+      "responses": [
+       "BLR Stands far Beyond local repair. These are eqpt and assemblies which are outsidethe scope of repairs of fwd echelons of repair.","BLR Stands far Beyond local repair. These are eqpt and assemblies which are outside the scope of repairs of fwd echelons of repair.","BLR Stands far Beyond local repair. These are eqpt and assemblies which are outside the scope of repairs of fwd echelons of repair."
+      ]
+    },
+    {
+      "tag": "ber",
+      "patterns": [
+        "what is ber","what is BER?","BER","tell me about BER","describe BER","BER","BER functionality","about BER","BER","BER","BER"
+      ],
+      "responses": [
+       "BER Stads far Beyond economical repair. These eqpts are uneconomic to repair and restore back in to service. Instead of repairing these, It would be more economic to get new replacement.","BER Stads far Beyond economical repair. These eqpts are uneconomic to repair and restore back in to service. Instead of repairing these, It would be more economic to get new replacement.","BER Stads far Beyond economical repair. These eqpts are uneconomic to repair and restore back in to service. Instead of repairing these, It would be more economic to get new replacement."
+      ]
+    },
+    {
+      "tag": "ces",
+      "patterns": [
+        "what is ces","what is CES?","CES","tell me about CES","describe CES","CES","CES functionality","about CES","CES","CES","CES"
+      ],
+      "responses": [
+       "CES Stands for Complete eqpt Schedule .CES is published for all eqpts. It providesauthority for the purpose of initial provisioning and issue of the complete eqpt by Ord depots,and for the units placed the subsequent demands.","CES Stands for Complete eqpt Schedule .CES is published for all eqpts. It providesauthority for the purpose of initial provisioning and issue of the complete eqpt by Orddepots,and for the units placed the subsequent demands.","CES Stands for Complete eqpt Schedule .CES is published for all eqpts. It providesauthority for the purpose of initial provisioning and issue of the complete eqpt by Orddepots,and for the units placed the subsequent demands."
+      ]
+    },
+    {
+      "tag": "regrem",
+      "patterns": [
+        "what is regrem","what is REGREM?","REGREM","tell me about REGREM","describe REGREM","REGREM","REGREM functionality","about REGREM","REGREM","REGREM","REGREM"
+      ],
+      "responses": [
+       "REGREM Stand for Regionally Repairable Module Which PCB can be repaired at nominated Nodal field wksps in the Corps Zone and in nominated wksps Areas/comnds","REGREM Stand for Regionally Repairable Module Which PCB can be repaired at nominated Nodal field wksps in the Corps Zone and in nominated wksps Areas/comnds","REGREM Stand for Regionally Repairable Module Which PCB can be repaired at nominated Nodal field wksps in the Corps Zone and in nominated wksps Areas/comnds"
+      ]
+    },
+    {
+      "tag": "centrem",
+      "patterns": [
+        "what is centrem","what is CENTREM?","CENTREM","tell me about CENTREM","describe CENTREM","CENTREM","CENTREM functionality","about CENTREM","CENTREM","CENTREM","CENTREM"
+      ],
+      "responses": [
+        "CENTREM Stands for Centrally Repairable module. These are highly complexmodules requring extensive and extensive test eqpt and stringent controlled environment.These will be repaired in Nominated Army/Adv Base wksps.","CENTREM Stands for Centrally Repairable module. These are highly complexmodules requring extensive and extensive test eqpt and stringent controlled environment.These will be repaired in Nominated Army/Adv Base wksps.","CENTREM Stands for Centrally Repairable module. These are highly complexmodules requring extensive and extensive test eqpt and stringent controlled environment.These will be repaired in Nominated Army/Adv Base wksps."
+      ]
+    },
+    {
+      "tag": "repair policy of Opto Electronics Equipments",
+      "patterns": [
+        "what is repair policy of Opto Electronics Equipments","what is repair policy of Opto Electronics Equipments","repair policy of Opto Electronics Eqpts","tell me about repair policy of Opto Electronics Eqpts","describe repair policy of Opto Electronics Eqpts","Opto Electronics Eqpts","Opto Electronics Eqpts","about CENTREM","Opto Electronics Eqpts","Opto Electronics Eqpts","policy of Opto Electronics Eqpts","policy of Opto Electronics Eqpts","Opto Electronics Eqpts"
+      ],
+      "responses": [
+        "R 3e0p air Policy of PNVDs issued vide Army HQ letter No B/81992/Inst/PNVD dated 30 Oct 1998.Repair Policy of LBls issued vide Army HQ letter No B/81992/linst/LBI dated 30 Oct 1998.Repair Policy of TI issued vide Army HQ letter No B/81992/Inst/TI dated 30 Oct 1998","R 3e0p air Policy of PNVDs issued vide Army HQ letter No B/81992/Inst/PNVD dated 30 Oct 1998.Repair Policy of LBls issued vide Army HQ letter No B/81992/linst/LBI dated 30 Oct1998.Repair Policy of TI issued vide Army HQ letter No B/81992/Inst/TI dated 30 Oct 1998","R 3e0p air Policy of PNVDs issued vide Army HQ letter No B/81992/Inst/PNVD dated 30 Oct 1998.Repair Policy of LBls issued vide Army HQ letter No B/81992/linst/LBI dated 30 Oct1998.Repair Policy of TI issued vide Army HQ letter No B/81992/Inst/TI dated 30 Oct 1998"
+      ]
+    },
+    {
+      "tag": "echelons of repair",
+      "patterns": [
+        "what is Echelons of repair","what is Echelons of repair","repair policy of Opto Electronics Eqpts","tell me about Echelons of repair","describe Echelons of repair","Echelons of repair","Echelons of repair","about Echelons of repair","Echelons","Echelons repair","Echelons of repair"
+      ],
+      "responses": [
+        "1.UROILRW (R1) 2.fd Wksps/Nodal Wksps (R2) 3.CZw (Corps Zone Wksp) (R3) 4.ABWs (Army Base Wksps) (R4)",
+        "1.UROILRW (R1) 2.fd Wksps/Nodal Wksps (R2) 3.CZw (Corps Zone Wksp) (R3) 4.ABWs (Army Base Wksps) (R4)",
+        "1.UROILRW (R1) 2.fd Wksps/Nodal Wksps (R2) 3.CZw (Corps Zone Wksp) (R3) 4.ABWs (Army Base Wksps) (R4)"
+      ]
+    },
+    {
+      "tag": "fmc",
+      "patterns": [
+        "what is FMC","what is FMC","FMC","tell me FMC","FMC","FMC","FMC","fmc","fmc","fmc"
+      ],
+      "responses": [
+        "Eqpt is fully capable of performing the mission ready at any point of time.",
+        "Eqpt is fully capable of performing the mission ready at any point of time.",
+        "Eqpt is fully capable of performing the mission ready at any point of time."
+      ]
+    },
+    {
+      "tag": "pmc",
+      "patterns": [
+        "what is PMC","what is PMC","PMC","tell me PMC","PMC","PMC","PMC","pmc","pmc","pmc"
+      ],
+      "responses": [
+        "Eqpt is partially capable of performing the mission .",
+        "Eqpt is partially capable of performing the mission .",
+        "Eqpt is partially capable of performing the mission ."
+      ]
+    },
+    {
+      "tag": "nmc",
+      "patterns": [
+        "what is NMC","what is NMC","NMC","tell me NMC","NMC","NMC","NMC","nmc","nmc","nmc"
+      ],
+      "responses": [
+        "Eqpt is not capable of performing the mission",
+        "Eqpt is not capable of performing the mission",
+        "Eqpt is not capable of performing the mission"
+      ]
+    },
+    {
+      "tag": "life of ii tube",
+      "patterns": [
+        "what is life of ii tube","what is life of ii tube","life of ii tube","tell me about life of ii tube","life of ii tube","life of ii tube","life of ii tube","ii tube","tube","tube","tube","ii tube","ii tube"
+      ],
+      "responses": [
+        "II Tube life is 10000 hours",
+        "II Tube life is 10000 hours",
+        "II Tube life is 10000 hours"
+      ]
+    },
+    {
+      "tag": "discard policy of als",
+      "patterns": [
+        "what is discard policy of als","what is discard policy of als","discard policy of als","discard policy of als","discard policy of als","policy of als","policy of als","policy of als","policy of als","als","als","als"
+      ],
+      "responses": [
+        "Vintage - 9 Yrs & Meterage - 10000OKM",
+        "Vintage - 9 Yrs & Meterage - 10000OKM",
+        "Vintage - 9 Yrs & Meterage - 10000OKM"
+      ]
+    },
+    {
+      "tag": "discard policy of specialist veh?",
+      "patterns": [
+        "what is discard policy of specialist veh?","what is discard policy of specialist veh","discard policy of specialist veh","discard policy of specialist veh","policy of specialist veh","policy of specialist veh","policy of specialist veh","specialist vehicle","specialist vehicle","specialist vehicle","specialist veh","specialist veh","specialist veh"
+      ],
+      "responses": [
+        "Vintage - 9 Yrs &Meterage - 80000KM",
+        "Vintage - 9 Yrs &Meterage - 80000KM",
+        "Vintage - 9 Yrs &Meterage - 80000KM"
+      ]
+    },
+    {
+      "tag": "classification of Tatra 6x6 for CLIII",
+      "patterns": [
+        "what is classification of Tatra 6x6 for CLIII","what is classification of Tatra 6x6 for CLIII","classification of Tatra 6x6 for CLIII","classification of Tatra 6x6 for CLIII","classification of Tatra 6x6 for CLIII","Tatra 6x6 for CLIII","Tatra 6x6 for CLIII","Tatra 6x6 for CLIII","classification of Tatra 6x6 for CLIII","cliii","cliii","cliii","classification of cliii","classification of cliii","classification of cliii"
+      ],
+      "responses": [
+        "40000 KM & above",
+        "40000 KM & above",
+        "40000 KM & above"
+      ]
+    },
+    {
+      "tag": "classification of Tatra 6x6 for CLII",
+      "patterns": [
+        "what is classification of Tatra 6x6 for clii","what classification of Tatra 6x6 for clii","classification of Tatra 6x6 for clii","classification of Tatra 6x6 for clii","classification of Tatra 6x6 for clii","Tatra 6x6 for clii","Tatra 6x6 for clii","classification of Tatra 6x6 for clii","classification  clii","classification clii","classification clii"
+      ],
+      "responses": [
+        "20000 KM to 40000 KM",
+        "20000 KM to 40000 KM",
+        "20000 KM to 40000 KM"
+      ]
+    },
+    {
+      "tag": "classification of ALS for CL-II",
+      "patterns": [
+        "what is classification of ALS for CL-II","what is classification of ALS for CL-II","classification of ALS for CL-II","classification of ALS for CL-II","classification of ALS for CL-II","ALS for CL-II","ALS for CL-II","ALS for CL-II"
+      ],
+      "responses": [
+        "60000 to 120000 KM",
+        "60000 to 120000 KM",
+        "60000 to 120000 KM"
+      ]
+    },
+    {
+      "tag": "classification of ALS for CL-III",
+      "patterns": [
+        "what is classification of ALS for CL-III","what is classification of ALS for CL-III","classification of ALS for CL-III","classification of ALS for CL-III","classification of ALS for CL-III","ALS for CL-III","ALS for CL-III","ALS for CL-III","classification CL-III","classification CL-III","classification CL-III"
+      ],
+      "responses": [
+        "120000 KM & above",
+        "120000 KM & above",
+        "120000 KM & above"
+      ]
+    }
+   
+  ]
+}
